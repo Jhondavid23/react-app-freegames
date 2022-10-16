@@ -1,0 +1,46 @@
+.container-recomendation {
+    position: relative;
+    background-color: #32383e;
+    width: 15.5rem;
+    height: 254px;
+    border-radius: 20px 20px 25px 25px;
+    margin: 0 20px;
+    border: 1px solid white;
+}
+
+
+.container-recomendation .button {
+    position: absolute;
+    right: 15px;
+    border-radius: 25px;
+    padding: 5px;
+    bottom: 40px;
+    font-size: var(--sm);
+    background-color: var(--gray-strong);
+    color: #FDFEFE;
+    border: 1px solid var(--white);
+    transition: all 0.2s;
+
+
+}
+
+.container-recomendation .button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.container-img img {
+    width: 248px;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
+.container-recomendation:hover {
+
+    transform: translateY(-7px);
+    transition: 0.5s;
+    box-shadow: 0 0 20px 0 white;
+    border: 2px solid white;
+
+}

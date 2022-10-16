@@ -1,0 +1,49 @@
+
+.container-home{
+    height: 100%;
+}
+.container-home .header{
+    width: 100%; 
+    background: linear-gradient(rgba(0, 0, 0, 0.852), rgba(0, 0, 0, 0.907)), url('https://i.blogs.es/4d650a/gogga/1366_2000.jpeg');
+    height: 400px;
+    font-size: 40px;
+    display: flex;
+    
+}
+ .text{
+
+    margin: auto;
+
+
+}
+
+.header .button{
+    font-weight: 700;
+    padding: 4px 10px;
+    background: #f2eee0;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-align: justify;
+    align-items: center;
+}
+
+.header .button:hover{
+    color: rgb(226,135,67);
+}
+.section-recomended{
+    margin-top: 20px;
+    
+}
+.container-recomended{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 100px 0 100px;
+    
+    
+}
+.section-recomended h2{
+    text-align: center;
+}

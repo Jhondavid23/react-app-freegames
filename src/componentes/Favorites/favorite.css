@@ -1,0 +1,25 @@
+
+.favorite-contend{
+    height: 100%;
+}
+
+.icon-container{
+ display: flex;
+ flex-direction: column;
+ 
+}
+.icon-container .icon{
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.icon-icon{
+    font-size: 100px;
+
+}
+
+.icon-text{
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+}
