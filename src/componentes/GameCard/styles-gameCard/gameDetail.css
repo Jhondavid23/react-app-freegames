@@ -9,7 +9,7 @@
 
 .container-gameDetail .main {
     margin: 0 auto;
-    background: linear-gradient(rgba(0, 0, 0, 0.852), rgba(0, 0, 0, 0.907)), url('https://i.blogs.es/4d650a/gogga/1366_2000.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.852), rgba(0, 0, 0, 0.907)), url('../../icons/background.jpeg');
     text-align: center;
 }
 

@@ -4,7 +4,7 @@
 }
 .container-home .header{
     width: 100%; 
-    background: linear-gradient(rgba(0, 0, 0, 0.852), rgba(0, 0, 0, 0.907)), url('https://i.blogs.es/4d650a/gogga/1366_2000.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.852), rgba(0, 0, 0, 0.907)), url('../icons/background.jpeg');
     height: 400px;
     font-size: 40px;
     display: flex;
