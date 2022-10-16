@@ -9,7 +9,7 @@ function Footer() {
             <section className='footer-section'>
                 <article className='footer-article'>
                     <NavLink to={'/about'} className='text'>About Us</NavLink>
-                    <NavLink to={'/contact'} className='text'>Contact Us</NavLink>
+                    {/* <NavLink to={'/contact'} className='text'>Contact Us</NavLink> */}
                 </article>
                 <figure className='footer-logo'>
                     <img src={logo} alt="logo-footer" />
