@@ -91,7 +91,7 @@
     transition: 0.5s;
 }
 .container-text{
-    padding: 20px;
+    padding: 10px 20px;
     position: relative;
 }
 .container-text p:nth-child(1){

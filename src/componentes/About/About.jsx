@@ -5,6 +5,10 @@ import { FaSearchengin, FaRobot, FaFolderPlus, FaLinkedin} from "react-icons/fa"
 
 function About() {
  
+
+  React.useEffect(()=>{
+    window.scrollTo(0, 0)
+  })
   return (
     <section className='section-about'>
 
