@@ -1,7 +1,5 @@
 import React from 'react'
-import { useDispatch, useSelector } from 'react-redux'
-import { deleteFavorite } from '../../store/actions/actions'
-import { Link } from 'react-router-dom'
+import { useSelector } from 'react-redux'
 import { FaRegGrinWink } from 'react-icons/fa';
 import './favorite.css'
 import { useState } from 'react';

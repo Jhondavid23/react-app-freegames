@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
-import { NavLink } from 'react-router-dom'
+import { useDispatch } from 'react-redux'
 import { SearchGame, allGames, changePage } from '../../store/actions/actions'
 import './NavStyle/Searchbar.css'
-import Filter from './Filter'
+
 
 function SearchBar() {
   const [search, setSearch] = useState({ game: "" })

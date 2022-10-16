@@ -10,7 +10,7 @@ const Filter = function ({allGames}) {
     const dispatch = useDispatch();
     const handlesubmit = (e)=>{
         e.preventDefault();
-        if(e.target.value == "All"){
+        if(e.target.value === "All"){
             dispatch(AllGames())
         }else{
             dispatch(AllGames())

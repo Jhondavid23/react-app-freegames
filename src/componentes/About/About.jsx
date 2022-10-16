@@ -4,10 +4,7 @@ import './about.css'
 import { FaSearchengin, FaRobot, FaFolderPlus, FaLinkedin} from "react-icons/fa";
 
 function About() {
-  const onClick = ()=>{
-    <a href="https://www.linkedin.com/in/juan-david-diaz-orozco-8b850a1a7"></a>
-  }
-
+ 
   return (
     <section className='section-about'>
 
@@ -18,7 +15,7 @@ function About() {
             <h1 className='title-first-article'>Find your game </h1>
             <h1 className='title2-first-article'>In your favorite place</h1>
           </div>
-          <img src={image} alt="image" className='img-about' />
+          <img src={image} alt="about" className='img-about' />
         </div>
       </article>
 
@@ -55,7 +52,7 @@ function About() {
           <FaLinkedin className='search-icon-about' />
           
         </div>
-        <a href="https://www.linkedin.com/in/juan-david-diaz-orozco-8b850a1a7" className='a-about' target="_blank">Link</a>
+        <a href="https://www.linkedin.com/in/juan-david-diaz-orozco-8b850a1a7" className='a-about' target="_blank" rel="noreferrer">Link</a>
       </article>
 
     </section>
